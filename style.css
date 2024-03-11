@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body, html, table{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    background-image: url(imagens/fundo1.png);
+    background-size: cover;
+    background-position: -50px;
+}
+.titulo{
+    font-family: "Montserrat", sans-serif;
+    color: green;
+    padding-left: 40px;
+    position: absolute;
+}
+.plantatop{
+    position: absolute;
+    padding-left: 375px;
+}
+.titulo1{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 285px;
+    font-family: "Montserrat", sans-serif;
+    text-transform:uppercase ;
+    background: linear-gradient(to right, rgb(2, 80, 2), rgb(17, 136, 17), rgb(4, 167, 4),  rgb(2, 80, 2));
+    background-size: 400% 100%; 
+    animation: degrade 10s linear infinite alternate;
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade {
+    0%{background-position-x: 0%;}
+    100%{background-position: 400%;}
+}
+
+.planta{
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 178px;
+}
+.hist{
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    width: 680px;
+    font-size:medium;
+    padding-left: 50px;
+}
+.madeby{
+    text-align: center;
+    padding-right: 500px;
+}
